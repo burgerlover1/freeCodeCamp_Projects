@@ -1,2 +1,2 @@
 # freeCodeCamp_Projects
-A collection of all the projects I did from freeCodeCamp.
+A collection of all my projects from freeCodeCamp.
