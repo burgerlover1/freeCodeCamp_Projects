@@ -75,14 +75,14 @@ textarea:focus {
 }
 
 #container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   color: #fff;
   font-family: "Geologica", sans-serif;
   font-size: 20px;
   font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #survey-form {
