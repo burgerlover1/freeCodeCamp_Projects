@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url(./reset.css);
+
+:root {
+	--primary-font: "Poppins", "Segoe UI", sans-serif;
+	--base-font-size: 16px;
+	--bg-color: #faf9f6;
+	--text-color: #4a4a4a;
+}
+
+html {
+	font-family: var(--primary-font);
+	color: var(--text-color);
+	font-size: var(--base-font-size);
+}
+
+body {
+	background-color: var(--bg-color);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	background-color: #fff;
+	padding: 1.25rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.265rem #0000001a;
+	width: 40rem;
+}
+
+.title {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	font-weight: 700;
+	font-style: italic;
+	margin-top: .6rem;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.years {
+	background-color: var(--text-color);
+	color: var(--bg-color);
+	font-weight: 400;
+	text-align: right;
+	margin: 1rem -1.25rem 0;
+}
+
+.years span {
+	padding-right: 1.2rem;
+}
+
+.category-title {
+	color: rgb(108, 145, 191);
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 1rem;
+	margin: 1rem 0 .8rem;
+}
+
+td {
+	font-size: 0.9rem;
+	padding: .185rem .5rem;
+}
+
+.data {
+	background-color: #dfdfe2;
+}
+
+.category {
+	font-weight: bold;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.numbers {
+	display: inline-block;
+}
+
+.numbers span {
+	margin-left: 2rem;
+}
+
+.large span {
+	margin-left: 1.4rem;
+}
+
+.description {
+	display: inline-block;
+	margin: .2rem 0;
+	font-style: italic;
+}
+
+.total .numbers {
+	font-weight: bold;
+}
+
+.total td {
+	padding-top: 1.3rem;
+	border-bottom: 4px double var(--text-color);
+}
+
+.total:hover {
+	background-color: rgba(108, 145, 191, 0.514);
+}
